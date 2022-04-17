@@ -1,15 +1,15 @@
 Javascript Topics:
 
-- primitives data types
-- variables, string, numbers, booleans, undefined, null, NaN
-- arithmetic operators
-- comparison operators
-- logical operators
-- conditional statements (if else, switch)
-- functions, arguments, return statement, scope
-- callbacks, higher order functions
-- for loops, while, do while
-- Arrays
+- primitives data types <a href="https://developer.mozilla.org/en-US/docs/Glossary/Primitive">Link</a>
+- variables, string, numbers, booleans, undefined, null, NaN  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">Link</a>
+- arithmetic operators <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators">Link</a>
+- comparison operators <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators">Link</a>
+- logical operators  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators">Link</a>
+- conditional statements (if else, switch) <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals">Link</a>
+- functions, arguments, return statement, scope <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions">Link</a>
+- callbacks <a href="https://developer.mozilla.org/en-US/docs/Glossary/Callback_function">Link</a>, higher order functions <a href="https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function">Link</a>
+- for loops, while, do while <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration">Link</a>
+- Arrays   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Link</a>
     - declaration
     - accessing items
     - assignment
@@ -17,7 +17,7 @@ Javascript Topics:
     - 2D array
     - 3D array
     - forEach, map, reduce, filter callbacks
-- Objects
+- Objects <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Link</a>
     - difference from arrays
     - key value pair
     - accessing values
@@ -25,7 +25,7 @@ Javascript Topics:
     - methods
     - for in loop
     - this
-- hoisting
+- hoisting  <a href="https://developer.mozilla.org/en-US/docs/Glossary/Hoisting">Link</a>
 
 Examples of Above topics related:
 ```js
@@ -102,16 +102,16 @@ const name = [1,2,3]
 name[1] = 4
 name
 ```
-- scopes
-    - global
+- scopes  <a href="https://www.w3schools.com/js/js_scope.asp">Link</a>
+    - global 
     - local scope
     - block scope
-- closures
-- lexical scoping
-- Execution context
-- strict mode
+- closures  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures">Link</a>
+- lexical scoping <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#lexical_scoping">Link</a>
+- Execution context <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this">Link</a>
+- strict mode <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode">Link</a>
 - solve problems faster by using objects 
-- recursion
+- recursion <a href="https://developer.mozilla.org/en-US/docs/Glossary/Recursion">Link</a>
 
 Examples of Above topics related:
 ```js
@@ -243,7 +243,7 @@ const debounce = (func, delay) => {
 // console.log( rec(arr) )
 ```
 
-- DOM manipulation 
+- DOM manipulation <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">Link</a>, another <a href="https://www.w3schools.com/js/js_htmldom.asp">Link</a>
     - createElement
     - append
     - getElementById
@@ -251,26 +251,28 @@ const debounce = (func, delay) => {
     - querySelectorAll
     - setAttribute
     - children methods
-- event API, eventListener
-- event bubbling
-- event capturing
-- style and attribute manipulation with DOM
-- JSON
-- using AJAX / XHR
-- callback, callback hell
-- asyncrnonous behavior in javascript
-    - setTimeout
-    - setInterval
-- event loop
-    - call stack
+- event API, eventListener <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event">Link</a>
+- event bubbling <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling_and_capture">Link</a>
+- event capturing <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling_and_capture">Link</a>
+- style and attribute manipulation with DOM <a href="https://www.w3schools.com/jsref/prop_html_style.asp">Link</a>
+- JSON <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON">Link</a>
+- using AJAX / XHR <a href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest">Link</a>
+- callback, callback hell  <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing">Link</a>
+- asyncrnonous behavior in javascript 
+    - setTimeout  <a href="https://developer.mozilla.org/en-US/docs/Web/API/setTimeout">Link</a>
+    - setInterval <a href="https://developer.mozilla.org/en-US/docs/Web/API/setInterval">Link</a>
+- event loop <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop">Link</a>
+    - call stack 
     - task/event queue
-- WEB API
-- promises
+- WEB API <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction">Link</a>
+- promises <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Link</a> OR <a href="https://www.w3schools.com/js/js_promise.asp">Link</a>
     - promise chaining
     - advantage over callbacks
-- async, await
-- fetch API
-- axios
+- async, await  <a href="https://www.w3schools.com/js/js_async.asp">Link</a> OR <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">Link</a>
+- fetch API <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">Link</a>
+- axios <a href="https://axios-http.com/docs/intro">Link</a>
+
+DOCS for Above: <a href="http://www.w3schools.me/JavaScript/javascript-promise">Link</a>
 
 Examples of Above Topics Related:
 ```js
@@ -538,22 +540,23 @@ console.log(obj.length)
 fetch vs axios
 ```
 
-- CORS
-- jQuery
-- IIFE
-- anonymous functions
-- Sets, Map
-- modules
-- localStorage, cookie, sessionStorage
-- ECMAScript, TC39
-- polyfill
-- tree shaking
-- HTTP protocols
-- Implementation of Stacks, Queues, Linked List, Trees (Binary Tree, Nary Tree), Graphs
+- CORS <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">Link</a>
+- jQuery <a href="https://www.w3schools.com/jquery/default.asp">Link</a>
+- IIFE  <a href="https://developer.mozilla.org/en-US/docs/Glossary/IIFE">Link</a>
+- anonymous functions <a href="https://www.w3schools.com/js/js_function_definition.asp">Link</a>
+- Sets, Map <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/set">Link</a>
+- modules <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">Link</a>
+- localStorage, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">Link</a> , 
+cookie <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie">Link</a>, sessionStorage  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage">Link</a>
+- ECMAScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources">Link</a>, TC39 <a href="https://github.com/tc39/proposals">Link</a>
+- polyfill <a href="https://developer.mozilla.org/en-US/docs/Glossary/Polyfill">Link</a>
+- tree shaking <a href="https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking">Link</a> OR <a href="https://webpack.js.org/guides/tree-shaking/">Link</a>
+- HTTP protocols <a href="https://developer.mozilla.org/en-US/docs/Glossary/https">Link</a>
+- Implementation of Stacks, Queues, Linked List, Trees (Binary Tree, Nary Tree), Graphs 
 - Traversing, reversing, mirror, and other operations for LinkedList, Trees, Graphs (1st, 2nd, 3rd level)
 
 
-ES6 and others:
+ES6 and others: <a href="https://www.w3schools.com/js/js_es6.asp">Link</a>
 
 - var let const
 - arrow functions
